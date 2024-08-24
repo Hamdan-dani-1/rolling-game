@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(from hsl(0 100% 50%) calc(r/2) calc(g + 25) calc(b + 175) / calc(alpha - 0.1))
+    ;
+    font-family: "Oswald", sans-serif;
+}
+h4{
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: -6rem;
+    margin-top: 1rem;
+    color:darkred;
+    font-family: "Oswald", sans-serif;
+}
+
+.rolldice{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+    gap:  1rem;
+    font-family: "Oswald", sans-serif;
+}
+.player1{
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    height: 65vh;
+    width: 70vh;
+    border: 1px solid rgb(86, 80, 80);
+    box-shadow:rgb(86, 80, 80);
+    font-family: "Oswald", sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+.player1score{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 15px;
+    font-family: "Oswald", sans-serif;
+}
+.player2score{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 15px;
+    font-family: "Oswald", sans-serif;
+}
+.player2{
+    background-color: darkblue;
+    color: white;
+    padding-top: 2rem;
+    height: 65vh;
+    width: 70vh;
+    border: 1px solid rgb(116, 108, 108);
+    font-family: "Oswald", sans-serif;
+}
+h3{
+    text-align: center;
+    margin-top: 9rem;
+    font-size: 22px;
+}
+.current1{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.current2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    position: absolute;
+    
+}
+
+.roll-dicee{
+    cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: none;
+    
+    background-color: rgb(57, 55, 55);
+    color: #fff;
+transition-timing-function: 0.5s;
+transition: ease-out;
+transition-duration: 0.2s;
+}
+.bgc{
+    width: 650px;
+    background: transparent;
+    background-color: rgba(154, 152, 152, 0.27);
+    text-align: center;
+}
+.hold-dicee{
+    cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(57, 55, 55);
+    color: #fff;
+    transition-duration: 0.2s;
+
+}
+.reset{
+    cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: none;
+    
+    background-color: rgb(57, 55, 55);
+    color: #fff;
+    transition-duration: 0.2s;
+
+}
+
+.roll-dicee:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out;
+    transition-timing-function: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.hold-dicee:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out;
+    transition-timing-function: 0.5s;
+    transition-duration: 0.5s;
+}
+.reset:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out;
+    transition-timing-function: 0.5s;
+    transition-duration: 0.5s;
+}
+.images{
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.hidden{
+    display: none;
+}
